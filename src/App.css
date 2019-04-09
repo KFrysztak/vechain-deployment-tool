@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.app-container > p {
+  margin-bottom: 4px;
+}
+
+.error {
+  color: #d50000;
+}
+
+textarea {
+  width: 380px !important;
+}
+
+.transaction-info {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.transaction-info span {
+  margin-right: 12px;
+  font-size: 14px;
+  color: #4CAF50;
+  font-weight: 600;
+}
